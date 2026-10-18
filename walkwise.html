@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WalkWise | Anden Benner</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="project">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html">Anden Benner</a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="index.html#work">Work</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="band project-hero" aria-labelledby="page-title">
+      <div class="wrap">
+        <div>
+          <h1 id="page-title">WalkWise</h1>
+          <p class="lede">A high fidelity prototype of a mobile app focused on foot traffic on campuses and providing additional information on route closures.</p>
+        </div>
+        <figure>
+          <img src="images/walkwise-icon.png" width="242" height="244" alt="WalkWise app icon: a pedestrian walking toward a hazard sign, with the slogan “Walk Smarter, Not Harder”" style="max-width:320px">
+          <figcaption class="caption">WalkWise’s icon, a pedestrian walking toward a hazard sign with the slogan underneath.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="band facts" aria-labelledby="facts-title">
+      <div class="wrap">
+        <h2 class="sec" id="facts-title">Facts and Roles</h2>
+        <div class="two-col">
+          <div>
+            <p class="meta">Term: Fall 2026 Class Project</p>
+            <p>My responsibilities:</p>
+            <ul>
+              <li>Project manager</li>
+              <li>Research lead</li>
+              <li>QA Tester</li>
+              <li>Presentations</li>
+            </ul>
+          </div>
+          <div>
+            <p class="meta">Group: Myself and 5 others</p>
+            <p>My group’s responsibilities:</p>
+            <ul>
+              <li>Artistry and design</li>
+              <li>Advertising</li>
+              <li>Coding/navigating</li>
+              <li>Documentation</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="band" aria-labelledby="research-title">
+      <div class="wrap">
+        <h2 class="sec" id="research-title">Research</h2>
+        <div class="split">
+          <div>
+            <p>In the beginning of the course, we analyzed various kinds of human-computing interaction and common practices to make tools more intuitive in computing technology.</p>
+            <p>We were then tasked with forming groups to create a series of prototypes for a mobile app that we might like to create, to implement the different elements of the topics we learned.</p>
+            <p>I, frustrated with campus construction, decided to create an app focused on foot traffic and alerting users to obstacles on their route and additional information as to that obstacle (rerouting users to another page).</p>
+          </div>
+          <figure class="plain tall">
+            <img src="images/walkwise-login.png" width="222" height="467" alt="WalkWise opening screen with options to log in, create an account, continue with Google or Apple, or continue as guest">
+            <figcaption class="caption">Opening screen of WalkWise, asking users to sign in or make an account for security and for users to engage in the app’s social functions.</figcaption>
+          </figure>
+        </div>
+        <div class="split flip">
+          <figure class="plain tall">
+            <img src="images/walkwise-closures.png" width="154" height="328" alt="WalkWise screen titled “Upcoming Closures Near Your Route” listing nearby closures">
+            <figcaption class="caption">A sample screen highlighting different closures in a user’s immediate vicinity.</figcaption>
+          </figure>
+          <p>We spent about two months, creating low fidelity prototypes and heavy documentation on our design choices, testing our proposed app among our peers, before finally presenting our high fidelity prototype made in Figma.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="band" aria-labelledby="adjust-title">
+      <div class="wrap">
+        <h2 class="sec" id="adjust-title">Adjustments we made from User Testing</h2>
+        <ul class="figure-row">
+          <li>
+            <figure>
+              <div class="frame"><img src="images/walkwise-road-closure.png" width="222" height="485" alt="WalkWise screen reading “Road Closure at Fifth Ave + Bigelow Blvd” with a “Want to Learn More?” link and a “Still There?” prompt"></div>
+              <figcaption>
+                <h3>Additional Information on Construction and Closures</h3>
+                <p>Initially, we had the app provide a brief reason and date for obstacles, but on later iterations we provided a link for users to learn more.</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <div class="frame"><img src="images/walkwise-community.png" width="254" height="564" alt="WalkWise activity feed where users comment on and like posts about closures"></div>
+              <figcaption>
+                <h3>Ability to Update Other Users</h3>
+                <p>We leaned into the community aspect of the app, allowing users to communicate more strongly with their community, similar to a social media board, whereas before users were only able to communicate on detour stops.</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <div class="frame"><img src="images/walkwise-map.png" width="266" height="542" alt="WalkWise map of Oakland, Pittsburgh with closure markers and a walking route"></div>
+              <figcaption>
+                <h3>Real-time Interactive Map</h3>
+                <p>Altered the map functionality to show closures before plotting a route instead of after.</p>
+              </figcaption>
+            </figure>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="band lr" aria-label="Limits and reflection">
+      <div class="wrap two-col">
+        <div>
+          <h2 class="sec">Limits</h2>
+          <p>We were unable to begin real implementation past the high fidelity prototype due to the semester’s time constraints.</p>
+        </div>
+        <div>
+          <h2 class="sec">Reflection</h2>
+          <p>Conduct additional user research and look into more ways to differentiate ourselves from fellow navigator apps, be that in terms of style or functionality.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <nav class="pager site-footer" aria-label="Project navigation">
+    <div class="wrap">
+      <a class="btn btn-sm" href="reading-into-it.html">Back to Reading Into It</a>
+      <a class="btn btn-sm" href="slow-steady.html">Next Project: Slow, Steady, and a Little Bit Stressful</a>
+    </div>
+  </nav>
+</body>
+</html>
